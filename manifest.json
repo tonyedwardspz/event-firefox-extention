@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "version":"1.0",
+  "name":"Event Extension",
+  "content_scripts": [
+    {
+      "matches": ["*://*.meetup.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
+
